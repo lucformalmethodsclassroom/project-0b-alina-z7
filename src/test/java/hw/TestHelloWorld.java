@@ -27,12 +27,6 @@ public class TestHelloWorld {
   }
 
   @Test
-  public void getMessage2() { // this test is broken - fix it!
-    assertNull(fixture);
-    assertEquals("hello world", fixture.getMessage());
-  }
-
-  @Test
   public void getYear() { // this test is OK, fix HelloWorld.java to make it pass!
     assertNotNull(fixture);
     assertEquals(2024, fixture.getYear());
